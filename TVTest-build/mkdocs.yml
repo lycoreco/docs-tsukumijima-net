@@ -1,0 +1,67 @@
+site_name: 'TVTest ヘルプ'
+site_url: 'https://docs.tsukumijima.net/TVTest/'
+theme:
+  name: 'readthedocs'
+plugins:
+  - search:
+      lang: ['en', 'jp']
+extra_css:
+  - 'https://fonts.googleapis.com/earlyaccess/notosansjp.css'
+  - 'https://fonts.googleapis.com/css?family=Open+Sans:600,800'
+  - 'default.css'
+nav:
+  - 'TVTest (デジタル放送汎用視聴プログラム実装研究資料) ヘルプ': index.md
+
+  - 'はじめに':
+    - 'はじめに': first.md
+    - '導入': install.md
+    - '初期設定ダイアログ': initialsettings.md
+  - '使い方':
+    - '使い方': howtouse.md
+    - 'ステータスバー': statusbar.md
+    - 'サイドバー': sidebar.md
+    - 'パネル': panel.md
+    - 'メニュー': menu.md
+    - '録画': record.md
+    - 'コマンドライン': commandline.md
+  - 'EPG番組表':
+    - 'EPG番組表': programguide/programguide.md
+    - 'EPG番組表の検索': programguide/search.md
+    - 'お気に入り': programguide/favorites.md
+  - '設定':
+    - '設定': options.md
+    - '一般': options/general.md
+    - '表示': options/view.md
+    - 'OSD': options/osd.md
+    - 'ステータスバー': options/statusbar.md
+    - 'サイドバー': options/sidebar.md
+    - 'メニュー': options/menu.md
+    - 'パネル': options/panel.md
+    - 'テーマ/配色': options/colorscheme.md
+    - '操作': options/operation.md
+    - 'キー割り当て': options/accelerator.md
+    - 'キー割り当て » チャンネル番号入力の設定': options/channelinput.md
+    - 'リモコン': options/controller.md
+    - 'BonDriver設定': options/driver.md
+    - '映像': options/video.md
+    - '音声': options/audio.md
+    - '再生': options/playback.md
+    - '録画': options/record.md
+    - 'キャプチャ': options/capture.md
+    - 'チャンネルスキャン': options/channelscan.md
+    - 'チャンネルスキャン » チャンネルスキャンの詳細設定': options/channelscan_details.md
+    - 'EPG/番組情報': options/epg.md
+    - 'EPG番組表': options/programguide.md
+    - '外部プログラム': options/programguidetool.md
+    - 'プラグイン': options/plugin.md
+    - 'TSプロセッサー': options/tsprocessor.md
+    - 'TSプロセッサー » チューナーマップ': options/tsprocessor_tunermap.md
+    - 'ログ': options/log.md
+  - '補遺':
+    - '補遺': appendix.md
+    - 'FAQ (よくある質問)': hint.md
+    - 'Tips': appendix/tips.md
+    - 'デコーダとレンダラ': appendix/decoder.md
+    - '放送局ロゴの取得について': appendix/logo.md
+    - 'チャンネルファイル': appendix/channelfile.md
+    - 'スタイルファイル': appendix/stylefile.md

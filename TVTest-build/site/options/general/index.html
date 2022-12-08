@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>一般 - TVTest ヘルプ</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
+  <link href="../../default.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u4e00\u822c";
+    var mkdocs_page_input_path = "options/general.md";
+    var mkdocs_page_url = "/TVTest/options/general/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> TVTest ヘルプ</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">TVTest (デジタル放送汎用視聴プログラム実装研究資料) ヘルプ</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">はじめに</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../first/">はじめに</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../install/">導入</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../initialsettings/">初期設定ダイアログ</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">使い方</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../howtouse/">使い方</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../statusbar/">ステータスバー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../sidebar/">サイドバー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../panel/">パネル</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../menu/">メニュー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../record/">録画</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../commandline/">コマンドライン</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">EPG番組表</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../programguide/programguide/">EPG番組表</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../programguide/search/">EPG番組表の検索</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../programguide/favorites/">お気に入り</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">設定</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../">設定</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">一般</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#_1">一般</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#_2">常駐する</a></li>
+        
+            <li><a class="toctree-l4" href="#_3">複数起動を禁止する</a></li>
+        
+            <li><a class="toctree-l4" href="#epg">メインウィンドウを閉じてもEPG番組表を閉じない</a></li>
+        
+            <li><a class="toctree-l4" href="#_4">タスクバーのボタンをパス別にグループ化する</a></li>
+        
+            <li><a class="toctree-l4" href="#_5">フルセグが受信できない場合ワンセグに切り替える</a></li>
+        
+            <li><a class="toctree-l4" href="#bondriver">BonDriver検索フォルダ</a></li>
+        
+            <li><a class="toctree-l4" href="#bondriver_1">デフォルトのBonDriver</a></li>
+        
+            <li><a class="toctree-l4" href="#_6">ジャンプリストを有効にする</a></li>
+        
+            <li><a class="toctree-l4" href="#_7">ジャンプリストから複数起動しない</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../view/">表示</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../osd/">OSD</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../statusbar/">ステータスバー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../sidebar/">サイドバー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../menu/">メニュー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../panel/">パネル</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../colorscheme/">テーマ/配色</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../operation/">操作</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../accelerator/">キー割り当て</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../channelinput/">キー割り当て » チャンネル番号入力の設定</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../controller/">リモコン</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../driver/">BonDriver設定</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../video/">映像</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../audio/">音声</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../playback/">再生</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../record/">録画</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../capture/">キャプチャ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../channelscan/">チャンネルスキャン</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../channelscan_details/">チャンネルスキャン » チャンネルスキャンの詳細設定</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../epg/">EPG/番組情報</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../programguide/">EPG番組表</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../programguidetool/">外部プログラム</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../plugin/">プラグイン</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tsprocessor/">TSプロセッサー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tsprocessor_tunermap/">TSプロセッサー » チューナーマップ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../log/">ログ</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">補遺</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../appendix/">補遺</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../hint/">FAQ (よくある質問)</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/tips/">Tips</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/decoder/">デコーダとレンダラ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/logo/">放送局ロゴの取得について</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/channelfile/">チャンネルファイル</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/stylefile/">スタイルファイル</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">TVTest ヘルプ</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>設定 &raquo;</li>
+        
+      
+    
+    <li>一般</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="_1">一般</h1>
+<h2 id="_2">常駐する</h2>
+<p>常駐モードにします。<br />
+常駐モードにすると、タスクトレイにアイコンが表示され、ウィンドウを閉じることによって待機状態に入ります。その際、負荷を下げるために、録画中でなければチューナーが閉じられます。待機状態から復帰すると、再びチューナーが開かれます。<br />
+待機状態から復帰するには、トレイアイコンを左クリックするか、右クリックメニューから [表示] を選択します。または、リモコンの電源ボタンを押します。</p>
+<h2 id="_3">複数起動を禁止する</h2>
+<p>TVTest の複数起動を禁止します。</p>
+<h2 id="epg">メインウィンドウを閉じてもEPG番組表を閉じない</h2>
+<p>メインウィンドウを閉じた際にEPG番組表を閉じないようにします。<br />
+その場合タスクトレイに格納され、タスクトレイのアイコンから再びメインウィンドウを表示させることができます
+(<a href="../../commandline/">コマンドラインオプション</a>に /epgonly を指定した場合と同じです)。<br />
+チェックをしないと、メインウィンドウを閉じた際にEPG番組表も閉じられ、常駐していない場合はプログラムが終了します。</p>
+<h2 id="_4">タスクバーのボタンをパス別にグループ化する</h2>
+<p>異なるパスに複数の TVTest をインストールしている場合、タスクバーのボタンがそれぞれ別にグループ化されるようにします。<br />
+この設定は Windows 7 以降で有効で、次回起動時に反映されます。</p>
+<h2 id="_5">フルセグが受信できない場合ワンセグに切り替える</h2>
+<p>フルセグが受信できない時、ワンセグが再生されるようにします。</p>
+<h2 id="bondriver">BonDriver検索フォルダ</h2>
+<p>BonDriver を検索するフォルダを指定します。<br />
+ここで指定されたフォルダにある BonDriver はメニューなどで選択できるようになります。<br />
+空欄にするとプログラムのファイルのあるフォルダになります。<br />
+プログラムのあるフォルダからの相対パスを指定することもできます。<br />
+この設定は次回起動時に反映されます。</p>
+<h2 id="bondriver_1">デフォルトのBonDriver</h2>
+<p>起動時にデフォルトで読み込む BonDriver を指定します。<br />
+コマンドラインで指定されている場合は、そちらが優先されます。<br />
+[なし] に設定すると何の BonDriver も読み込まずに起動します。</p>
+<h2 id="_6">ジャンプリストを有効にする</h2>
+<p>ジャンプリストに最近見たチャンネルなどを表示させるようにします。</p>
+<h2 id="_7">ジャンプリストから複数起動しない</h2>
+<p>ジャンプリストからチャンネルを選択した際に、複数起動しないようにします。</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../view/" class="btn btn-neutral float-right" title="表示">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../" class="btn btn-neutral" title="設定"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../view/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>表示 - TVTest ヘルプ</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
+  <link href="../../default.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u8868\u793a";
+    var mkdocs_page_input_path = "options/view.md";
+    var mkdocs_page_url = "/TVTest/options/view/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> TVTest ヘルプ</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">TVTest (デジタル放送汎用視聴プログラム実装研究資料) ヘルプ</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">はじめに</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../first/">はじめに</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../install/">導入</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../initialsettings/">初期設定ダイアログ</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">使い方</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../howtouse/">使い方</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../statusbar/">ステータスバー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../sidebar/">サイドバー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../panel/">パネル</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../menu/">メニュー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../record/">録画</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../commandline/">コマンドライン</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">EPG番組表</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../programguide/programguide/">EPG番組表</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../programguide/search/">EPG番組表の検索</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../programguide/favorites/">お気に入り</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">設定</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../">設定</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../general/">一般</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">表示</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#_1">表示</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#_2">ウィンドウとディスプレイの端に吸着する</a></li>
+        
+            <li><a class="toctree-l4" href="#_3">ウィンドウサイズ変更時に映像のアスペクト比に合わせる</a></li>
+        
+            <li><a class="toctree-l4" href="#_4">ウィンドウサイズが変わる場合近い端を基点にする</a></li>
+        
+            <li><a class="toctree-l4" href="#_5">表示倍率変更時にウィンドウのアスペクト比を維持する</a></li>
+        
+            <li><a class="toctree-l4" href="#_6">パン&amp;スキャン変更時のウィンドウサイズ</a></li>
+        
+            <li><a class="toctree-l4" href="#_7">ワンセグ視聴時のウィンドウサイズを記憶・復元する</a></li>
+        
+            <li><a class="toctree-l4" href="#_8">最小化時にタスクトレイに格納する</a></li>
+        
+            <li><a class="toctree-l4" href="#_9">最小化時に再生を停止する</a></li>
+        
+            <li><a class="toctree-l4" href="#_10">ウィンドウ表示時に画面部分でカーソルを隠す</a></li>
+        
+            <li><a class="toctree-l4" href="#_11">ウィンドウのアイコンを局ロゴにする</a></li>
+        
+            <li><a class="toctree-l4" href="#_12">タイトルバー文字列の形式</a></li>
+        
+            <li><a class="toctree-l4" href="#_13">タイトルバーのフォント</a></li>
+        
+            <li><a class="toctree-l4" href="#_14">プログラムロゴを表示する</a></li>
+        
+            <li><a class="toctree-l4" href="#_15">スクリーンセーバーを無効にする</a></li>
+        
+            <li><a class="toctree-l4" href="#_16">モニタの省電力機能を無効にする</a></li>
+        
+            <li><a class="toctree-l4" href="#_17">アクティブ時のみ</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../osd/">OSD</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../statusbar/">ステータスバー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../sidebar/">サイドバー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../menu/">メニュー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../panel/">パネル</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../colorscheme/">テーマ/配色</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../operation/">操作</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../accelerator/">キー割り当て</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../channelinput/">キー割り当て » チャンネル番号入力の設定</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../controller/">リモコン</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../driver/">BonDriver設定</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../video/">映像</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../audio/">音声</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../playback/">再生</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../record/">録画</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../capture/">キャプチャ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../channelscan/">チャンネルスキャン</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../channelscan_details/">チャンネルスキャン » チャンネルスキャンの詳細設定</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../epg/">EPG/番組情報</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../programguide/">EPG番組表</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../programguidetool/">外部プログラム</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../plugin/">プラグイン</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tsprocessor/">TSプロセッサー</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tsprocessor_tunermap/">TSプロセッサー » チューナーマップ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../log/">ログ</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">補遺</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../appendix/">補遺</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../hint/">FAQ (よくある質問)</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/tips/">Tips</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/decoder/">デコーダとレンダラ</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/logo/">放送局ロゴの取得について</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/channelfile/">チャンネルファイル</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../appendix/stylefile/">スタイルファイル</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">TVTest ヘルプ</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>設定 &raquo;</li>
+        
+      
+    
+    <li>表示</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="_1">表示</h1>
+<h2 id="_2">ウィンドウとディスプレイの端に吸着する</h2>
+<p>ウィンドウを移動した際に、他のウィンドウやディスプレイの端と隙間なく並ぶようにします。<br />
+この設定は Shift キーを押しながら移動することにより、一時的に反転させることができます。</p>
+<h2 id="_3">ウィンドウサイズ変更時に映像のアスペクト比に合わせる</h2>
+<p>ウィンドウサイズを変更する際に、ウィンドウサイズが映像のアスペクト比に合うように調整されます。<br />
+この設定は Shift キーを押しながらサイズ変更することにより、一時的に反転させることができます。</p>
+<h2 id="_4">ウィンドウサイズが変わる場合近い端を基点にする</h2>
+<p>表示倍率の変更などでウィンドウサイズが変わる時に、ディスプレイの端に近い方を基点として大きさを変えるようにします。<br />
+例えばウィンドウがディスプレイの右上にある場合、ウィンドウの右上を基点にして大きさを変更します。</p>
+<h2 id="_5">表示倍率変更時にウィンドウのアスペクト比を維持する</h2>
+<p>表示倍率を変えた際に、現在の画面のアスペクト比を維持するようにします。</p>
+<h2 id="_6">パン&amp;スキャン変更時のウィンドウサイズ</h2>
+<p>映像のパン&amp;スキャンやアスペクト比を切り替えた際の、ウィンドウサイズの合わせ方を選択します。</p>
+<h2 id="_7">ワンセグ視聴時のウィンドウサイズを記憶・復元する</h2>
+<p>ワンセグ視聴時のウィンドウサイズをフルセグとは別に記憶して、フルセグとワンセグを切り替えた際にそれぞれのサイズを復元するようにします。</p>
+<h2 id="_8">最小化時にタスクトレイに格納する</h2>
+<p>ウィンドウを最小化した際に、タスクトレイに格納されるようにします。</p>
+<h2 id="_9">最小化時に再生を停止する</h2>
+<p>ウィンドウを最小化した際に、再生を停止するようにします。</p>
+<h2 id="_10">ウィンドウ表示時に画面部分でカーソルを隠す</h2>
+<p>ウィンドウ表示時に、画面部分でカーソルを静止させるとカーソルが消えるようにします。<br />
+全画面表示時にはこの設定に関わらず常に消える動作になります。</p>
+<h2 id="_11">ウィンドウのアイコンを局ロゴにする</h2>
+<p>TVTest のタイトルバーやタスクバーのアイコンを、現在のチャンネルの局ロゴにします。</p>
+<h2 id="_12">タイトルバー文字列の形式</h2>
+<p>タイトルバーに表示する文字列のフォーマットを指定します。<br />
+文字列の中の連続した空白文字は除去されます。<br />
+% で囲まれた識別子は、当該の項目に置換されます。<br />
+使用できる識別子は、主に以下のようなものがあります。</p>
+<table>
+<thead>
+<tr>
+<th>識別子</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%event-name%</td>
+<td>番組名</td>
+</tr>
+<tr>
+<td>%event-title%</td>
+<td>番組名から [字] などを取り除いたもの</td>
+</tr>
+<tr>
+<td>%event-time%</td>
+<td>番組開始〜終了時間</td>
+</tr>
+<tr>
+<td>%event-mark%</td>
+<td>番組名の [字] などのマーク</td>
+</tr>
+<tr>
+<td>%rec-circle%</td>
+<td>録画中は●、録画中でない場合は空</td>
+</tr>
+<tr>
+<td>%sep-hyphen%</td>
+<td>-(ハイフン)区切り</td>
+</tr>
+<tr>
+<td>%sep-slash%</td>
+<td>/(スラッシュ)区切り)</td>
+</tr>
+</tbody>
+</table>
+<p>区切り(%sep-？%)は、前後に何か文字がある場合に区切りが入れられ、何もない場合は空になります。</p>
+<h2 id="_13">タイトルバーのフォント</h2>
+<p>チェックをするとタイトルバーのフォントに指定されたフォントを使用します。<br />
+チェックをしないと Windows の既定のフォントを使用します。</p>
+<h2 id="_14">プログラムロゴを表示する</h2>
+<p>起動時や再生オフ時に、指定された画像をロゴとして表示します。<br />
+表示できるのは BMP 形式のみです。</p>
+<h2 id="_15">スクリーンセーバーを無効にする</h2>
+<p>再生中はスクリーンセーバーが無効になるようにします。</p>
+<h2 id="_16">モニタの省電力機能を無効にする</h2>
+<p>再生中はモニタの省電力機能が無効になるようにします。</p>
+<h2 id="_17">アクティブ時のみ</h2>
+<p>TVTest がアクティブの場合のみ省電力機能を無効にします。</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../osd/" class="btn btn-neutral float-right" title="OSD">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../general/" class="btn btn-neutral" title="一般"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../general/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../osd/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

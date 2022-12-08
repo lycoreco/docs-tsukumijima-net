@@ -1,0 +1,44 @@
+body {
+    font-family: "Noto Sans JP";
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6, legend {
+    margin-top: 0;
+    font-weight: 700;
+    font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,"Noto Sans JP",sans-serif;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2980B9;
+}
+
+.wy-nav-side::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #5f5f5f;
+}
+
+.wy-nav-side::-webkit-scrollbar-thumb {
+    background-color: #b2b2b2;
+}
+
+.wy-nav-content {
+    max-width: 960px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    white-space: nowrap;
+    width: 100px;
+}
+
+thead {
+    border: 1px solid #e1e4e5 !important;
+}
+
+tr th {
+    border: 0px !important;
+}
